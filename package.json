@@ -36,7 +36,7 @@
       "npx prettier --write",
       "npx eslint --fix"
     ],
-    "src/**/*.{css}": [
+    "src/**/*.css": [
       "npx prettier --write"
     ]
   }
