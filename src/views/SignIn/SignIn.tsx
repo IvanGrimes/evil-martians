@@ -39,9 +39,10 @@ export const SignIn = () => {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <div className={s.root}>
+      <main className={s.root}>
         <Paper className={s.paper}>
           <Logo />
+          <h1 className={s.title}>Sign in</h1>
           <form className={s.form} onSubmit={handleSubmit}>
             <div>
               <TextField name="email" label="Email" errorMessage={errors.email} placeholder="Email" />
@@ -58,7 +59,7 @@ export const SignIn = () => {
             </Button>
           </form>
         </Paper>
-      </div>
+      </main>
     </>
   );
 };

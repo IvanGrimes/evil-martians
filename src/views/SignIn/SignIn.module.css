@@ -17,6 +17,12 @@
   height: 340px;
 }
 
+.title {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
 .form {
   display: flex;
   flex-direction: column;
