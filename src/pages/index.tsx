@@ -1,1 +1,1 @@
-export { SignIn as default } from '@/views/SignIn'
+export { SignIn as default } from "@/views/SignIn";

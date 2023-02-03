@@ -1,29 +1,29 @@
 .root {
-    font-size: 1rem;
-    line-height: 1;
-    border: none;
-    font-weight: 500;
-    border-radius: calc(var(--spacing) * 0.5);
-    background-color: var(--primary-color);
-    padding: 10px 18px;
-    color: var(--text-primary);
-    cursor: pointer;
-    transition: background-color 75ms ease-in;
+  font-size: 1rem;
+  line-height: 1;
+  border: none;
+  font-weight: 500;
+  border-radius: calc(var(--spacing) * 0.5);
+  background-color: var(--primary-color);
+  padding: 10px 18px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 75ms ease-in;
 }
 
 .root:hover {
-    background-color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 
 .root:focus:not(:focus-visible) {
-    outline: 0;
+  outline: 0;
 }
 
 .root:focus {
-    outline-offset: 2px;
-    outline: var(--focus-color) solid 2px;
+  outline-offset: 2px;
+  outline: var(--focus-color) solid 2px;
 }
 
 .pressed {
-    transform: translateY(1px);
+  transform: translateY(1px);
 }

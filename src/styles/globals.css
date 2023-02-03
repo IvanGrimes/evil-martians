@@ -1,35 +1,37 @@
 :root {
-    --text-primary: #212529;
-    --text-secondary: #515153;
+  --text-primary: #212529;
+  --text-secondary: #515153;
 
-    --primary-color: #e7bc23;
+  --primary-color: #e7bc23;
 
-    --hover-color: #deb113;
-    --focus-color: #e8bc3e;
-    --error-color: #ab0808;
-    --border-color: #ced4da;
+  --hover-color: #deb113;
+  --focus-color: #e8bc3e;
+  --error-color: #ab0808;
+  --border-color: #ced4da;
 
-    --color-white: #fff;
+  --color-white: #fff;
 
-    --spacing: 8px;
+  --spacing: 8px;
 
-    --shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+  --shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
 }
 
-html, body, #__next {
-    height: 100%;
+html,
+body,
+#__next {
+  height: 100%;
 }
 
 html {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 body * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }

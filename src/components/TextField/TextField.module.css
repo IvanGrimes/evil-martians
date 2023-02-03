@@ -1,56 +1,58 @@
 .root {
-    width: 100%;
-    font-size: 1rem;
-    margin-bottom: calc(var(--spacing) * 2);
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: calc(var(--spacing) * 2);
 }
 
 .error .input {
-    color: var(--error-color);
-    border-color: var(--error-color) !important;
+  color: var(--error-color);
+  border-color: var(--error-color) !important;
 }
 
 .error .input::placeholder {
-    color: var(--error-color);
+  color: var(--error-color);
 }
 
 .errorMessage {
-    margin-top: calc(var(--spacing) * 0.5);
-    font-size: 0.75em;
-    color: var(--error-color);
-    opacity: 0.8;
+  margin-top: calc(var(--spacing) * 0.5);
+  font-size: 0.75em;
+  color: var(--error-color);
+  opacity: 0.8;
 }
 
 .label {
-    display: inline-block;
-    font-size: 0.875em;
-    font-weight: 400;
-    color: var(--text-primary);
-    word-break: break-word;
-    margin-bottom: calc(var(--spacing) * 0.25);
+  display: inline-block;
+  font-size: 0.875em;
+  font-weight: 400;
+  color: var(--text-primary);
+  word-break: break-word;
+  margin-bottom: calc(var(--spacing) * 0.25);
 }
 
 .input {
-    display: block;
-    width: 100%;
-    padding: 8px calc(var(--spacing) * 1.5);
-    font-size: 1em;
-    line-height: 1;
-    border: 1px solid var(--border-color);
-    border-radius: calc(var(--spacing) * 0.5);
-    transition: border-color 100ms linear;
+  display: block;
+  width: 100%;
+  padding: 8px calc(var(--spacing) * 1.5);
+  font-size: 1em;
+  line-height: 1;
+  border: 1px solid var(--border-color);
+  border-radius: calc(var(--spacing) * 0.5);
+  transition: border-color 100ms linear;
 }
 
 .input:not(:disabled):hover {
-    border-color: var(--hover-color);
+  border-color: var(--hover-color);
 }
 
-.input:focus, .input:focus-within, .input:focus-visible {
-    outline: 0;
-    border-color: var(--focus-color);
+.input:focus,
+.input:focus-within,
+.input:focus-visible {
+  outline: 0;
+  border-color: var(--focus-color);
 }
 
 .input:disabled,
 .input::placeholder {
-    color: var(--text-secondary);
-    opacity: 0.8;
+  color: var(--text-secondary);
+  opacity: 0.8;
 }

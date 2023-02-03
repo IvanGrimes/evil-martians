@@ -1,1 +1,1 @@
-export { clsx } from 'clsx'
+export { clsx } from "clsx";
