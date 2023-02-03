@@ -54,5 +54,5 @@
 .input:disabled,
 .input::placeholder {
   color: var(--text-secondary);
-  opacity: 0.8;
+  opacity: 0.6;
 }

@@ -14,7 +14,6 @@ const logos = [logo1, logo2, logo3, logo4, logo5];
 export const Logo = () => {
   const [logoVariantSrc, setLogoVariantSrc] = useState<string>("");
   const [isLogoVariantVisible, setLogoVariantVisible] = useState(false);
-
   const handleMouseEnter = () => {
     const logoIndex = (Math.random() * logos.length) << 0;
 

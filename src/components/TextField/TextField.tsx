@@ -8,7 +8,10 @@ export type TextFieldProps = AriaTextFieldOptions<"input"> & { className?: strin
 export const TextField = (props: TextFieldProps) => {
   const ref = useRef<HTMLInputElement | null>(null);
   const { className, label, errorMessage } = props;
-  const { inputProps, labelProps, errorMessageProps } = useTextField(props, ref);
+  const { inputProps, labelProps, errorMessageProps } = useTextField(
+    { ...props, validationState: props.errorMessage ? "invalid" : "valid" },
+    ref
+  );
 
   return (
     <div className={clsx(s.root, errorMessage && s.error, className)}>
